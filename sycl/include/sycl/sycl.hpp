@@ -172,4 +172,5 @@ can be disabled by setting SYCL_DISABLE_FSYCL_SYCLHPP_WARNING macro.")
 #include <sycl/khr/max_work_group_queries.hpp>
 #include <sycl/khr/properties.hpp>
 #include <sycl/khr/static_addrspace_cast.hpp>
+#include <sycl/khr/virtual_mem.hpp>
 #include <sycl/khr/work_item_queries.hpp>

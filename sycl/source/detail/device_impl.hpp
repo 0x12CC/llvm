@@ -1663,6 +1663,10 @@ public:
       return get_info_impl_nocheck<UR_DEVICE_INFO_VIRTUAL_MEMORY_SUPPORT>()
           .value_or(0);
     }
+    CASE(khr_virtual_mem) {
+      return get_info_impl_nocheck<UR_DEVICE_INFO_VIRTUAL_MEMORY_SUPPORT>()
+          .value_or(0);
+    }
     CASE(ext_oneapi_atomic16) {
       return get_info_impl_nocheck<UR_DEVICE_INFO_FP16_ATOMIC>().value_or(
           false);
